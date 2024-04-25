@@ -3,6 +3,28 @@
   text-align: center;
 }
 
+li{
+    text-decoration: dotted;
+    font-size: larger;
+    text-rendering: optimizeLegibility;
+}
+
+header~main{
+    background-color: yellow;
+}
+
+.hyperlinks{
+    color: inherit;
+}
+
+.hyperlinks:hover{
+    color:yellow;
+}
+
+#about{
+     font-size: small;
+     
+}
 
 
 
