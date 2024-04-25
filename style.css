@@ -18,7 +18,7 @@ header~main{
 }
 
 .hyperlinks:hover{
-    color:yellow;
+    color:rgb(0, 255, 26);
 }
 
 #about{
@@ -26,6 +26,19 @@ header~main{
      
 }
 
+#navigation{
+    background-color: aquac;
+}
+
+.flex{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.fun-fact{
+    
+}
 
 
 
