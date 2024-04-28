@@ -9,16 +9,20 @@ li{
     text-rendering: optimizeLegibility;
 }
 
-header~main{
-    background-color: yellow;
-}
+
 
 .hyperlinks{
     color: inherit;
+    background-color: aliceblue;
 }
 
 .hyperlinks:hover{
     color:rgb(0, 255, 26);
+    border: 5px solid red;
+    padding:  0em 1em;
+    border-radius: 16px;
+    font-size: 24px;
+    line-height: 2;
 }
 
 #about{
@@ -26,18 +30,33 @@ header~main{
      
 }
 
-#navigation{
-    background-color: aquac;
+h4 ~ div{
+   margin: 35px;
 }
 
-.flex{
+article h3{
+    color: rgb(17, 205, 230);
+}
+
+h3 > div{
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
-.fun-fact{
+.funfacts{
+    color: rgb(17, 205, 230);
+    border: 2px solid;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+
+#table{
+    caption-side:bottom;
+    display: flex;
     
+    align-items: center;
 }
 
 
